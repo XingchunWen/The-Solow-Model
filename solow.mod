@@ -63,4 +63,4 @@ hold on
 line([1,nrep+5],[c(1),c(1)],'linestyle','-','color','red','linewidth',1.5)
 %line([起点横坐标,终点横坐标],[起点纵坐标,终点纵坐标],'linestyle',':')
 subplot(312);plot([inv(1);inv(1);inv(1);inv(1);inv(1);inv(smpl)],'-b','linewidth',2);title('investment')
-subplot(313);plot([y(1);y(1);y(1);y(1);y(1);y(smpl)],'-b','linewidth',2);title('output')
+subplot(313);plot([y(1);y(1);y(1);y(1);y(1);y(smpl)],'-b','linewidth',2);title('output') 
